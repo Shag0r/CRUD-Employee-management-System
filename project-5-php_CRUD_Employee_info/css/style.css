@@ -1,0 +1,28 @@
+body {
+    background-color: #fbffb3;
+}
+
+.water-drop-bg {
+    background: linear-gradient(to bottom, #ffffff, #e6f2ff);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.foo a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.foo a:hover {
+    color: #fbffb3;
+    font-size: larger;
+
+
+}
+
+input {
+    background-color: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(84, 76, 76);
+}

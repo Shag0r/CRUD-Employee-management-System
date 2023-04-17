@@ -1,0 +1,32 @@
+creating database 
+----------------
+create DATABASE employee;
+
+
+---------------------
+creating the table
+----------------------------
+CREATE TABLE employee_info(
+    id int(5) PRIMARY KEY AUTO_INCREMENT,
+    name varchar(50) NOT null,
+    father_name varchar(50) not null,
+    email varchar(100) UNIQUE not null,
+    phone varchar(11) UNIQUE not null,
+    address varchar(50),
+    post varchar(20) not null,
+    salary int(8) not null
+);
+
+
+insert data int0 table 
+-------------------------------------
+INSERT INTO `employee_info`(`id`,`name`,`father_name`,`email`,`phone`,`address`,`post`,`salary`) VALUES(400,'A Ali','B Ali','a@gmail.com','01999999','123/4_A,Dhaka','Manager',45000);
+
+
+display the information
+---------------------------------
+SELECT `name`,`father_name`,`email`,`phone`,`address`,`post`,`salary` FROM `employee_info`;
+
+remove data from the table
+---------------------------------------
+DELETE FROM `employee_info` WHERE `id`=401;
